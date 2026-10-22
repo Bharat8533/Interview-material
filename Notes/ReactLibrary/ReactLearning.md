@@ -10,24 +10,13 @@ React is a JavaScript library for building user interfaces, particularly single-
 * **One-way Data Binding:** Predictable data flow.
 * **React Hooks:** State and lifecycle management in functional components.
 
-
 ### 2. Components & Data Flow
-
-### What is a React component?
-A React component is a reusable piece of UI, defined as a function or class, that returns JSX to describe what should be rendered.
-
-##### Difference between functional and class components?
-* **Functional Components: Simple JS functions that return JSX. They use Hooks for state and lifecycle.**
-* **Class Components: ES6 classes that extend React.Component. They use the render() method and lifecycle methods like componentDidMount.**
-
 
 ### 3. What are props in React?
 Props (short for properties) are read-only inputs passed from a parent component to a child component to customize its behavior or rendering.
 
 ### 4. What is the virtual DOM?
 The virtual DOM is an in-memory representation of the real DOM. React uses it to optimize updates by comparing changes (Diffing) and updating only the necessary parts of the actual DOM (Reconciliation).
-
-
 
 ### 5. How does React differ from other frameworks like Angular?
 React is a **library** focused on UI components and uses a virtual DOM, whereas Angular is a **full-fledged framework** that includes two-way data binding, dependency injection, and a built-in CLI for project structure out of the box.
