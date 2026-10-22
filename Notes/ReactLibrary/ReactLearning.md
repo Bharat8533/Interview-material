@@ -11,7 +11,7 @@ React is a JavaScript library for building user interfaces, particularly single-
 * **React Hooks:** State and lifecycle management in functional components.
 
 
-## 2. Components & Data Flow
+### 2. Components & Data Flow
 
 ### What is a React component?
 A React component is a reusable piece of UI, defined as a function or class, that returns JSX to describe what should be rendered.
@@ -21,7 +21,7 @@ A React component is a reusable piece of UI, defined as a function or class, tha
 * **Class Components: ES6 classes that extend React.Component. They use the render() method and lifecycle methods like componentDidMount.**
 
 
-## 3. What are props in React?
+### 3. What are props in React?
 Props (short for properties) are read-only inputs passed from a parent component to a child component to customize its behavior or rendering.
 
 ### 4. What is the virtual DOM?
